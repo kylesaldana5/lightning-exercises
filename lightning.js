@@ -8,5 +8,6 @@
 ]
 
 for (let i = 0; i < nameArry.length; i++) {
-    console.log('${nameArry[i].name} job title is ${nameArry.title}')
+    console.log( `${nameArry[i].name} job title is ${nameArry[i].title}`)
 }
+

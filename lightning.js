@@ -87,3 +87,14 @@ yoda_quote.map( (word) =>{
     return word
 
 }).join(" ")
+
+//  1/4/18
+// Choose a loop method of your choice to get this result from this array: expected result: [3, 5, 7, 9, 11, 13]
+let nums = [1, 2, 3, 4, "5", 6, "7"]
+
+let newNums = [];
+for (let i = 0; i < nums.length-1; i++) {
+    newNums.push(+nums[i] + +nums[i + 1]);
+    
+}
+console.log(newNums)
